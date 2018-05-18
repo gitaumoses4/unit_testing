@@ -1,0 +1,13 @@
+language: python
+python:
+    - "2.7"
+    - "3.6"
+# install dependencies
+install:
+    - pip install -r requirements.txt
+# run tests
+script:
+    - nosetests --with-coverage test_linked_list.py
+# run coverage tests
+after_success:
+- coveralls
