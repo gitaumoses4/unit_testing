@@ -1,5 +1,7 @@
 # Python Unit Testing Example
 [![Build Status](https://travis-ci.org/gitaumoses4/unit_testing.svg?branch=develop)](https://travis-ci.org/gitaumoses4/unit_testing)
+[![Coverage Status](https://coveralls.io/repos/github/gitaumoses4/unit_testing/badge.svg?branch=develop)](https://coveralls.io/github/gitaumoses4/unit_testing?branch=develop)
+![license](https://img.shields.io/github/license/gitaumoses4/unit_testing.svg)
 
 A basic implementation of a Linked List with basic list implementation such as:
 
