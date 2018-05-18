@@ -1,4 +1,5 @@
 # Python Unit Testing Example
+[![Build Status](https://travis-ci.org/gitaumoses4/unit_testing.svg?branch=develop)](https://travis-ci.org/gitaumoses4/unit_testing)
 
 A basic implementation of a Linked List with basic list implementation such as:
 
