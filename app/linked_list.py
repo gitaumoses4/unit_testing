@@ -43,6 +43,7 @@ class LinkedList:
         else:
             if self.head.data == data:
                 self.head = self.head.nextNode
+                return True
             else:
                 temp = self.head
                 while temp.nextNode is not None:
@@ -71,14 +72,3 @@ class LinkedList:
             temp = temp.nextNode
         m_list.reverse()
         return m_list
-
-
-if __name__ == '__main__':
-    items = [1, 3, 5, 7, 4, 2]
-    linked_list = LinkedList()
-
-    for item in items:
-        linked_list.insert(item)
-
-    linked_list.delete(7)
-    print(linked_list.to_list())

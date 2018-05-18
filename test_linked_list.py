@@ -45,6 +45,15 @@ class LinkedListTestCase(unittest.TestCase):
         self.assertTrue(self.linked_list.empty())
         self.assertEqual(0, self.linked_list.length())
 
+    def test_delete_empty(self):
+        self.linked_list.clear()
+        self.assertFalse(self.linked_list.delete(3))
+
+    def test_delete_one_element(self):
+        self.linked_list.clear()
+        self.linked_list.insert(2)
+        self.assertTrue(self.linked_list.delete(2))
+
 
 if __name__ == '__main__':
     unittest.main()
