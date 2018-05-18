@@ -34,5 +34,5 @@ nosetests test_linked_list.py
 
 With coverage
 ```bash
-nosetests --with-coverage test_linked_list.py
+nosetests --with-coverage --cover-package app test_linked_list.py
 ```
